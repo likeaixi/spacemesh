@@ -9,7 +9,7 @@ datadir=/data1/sapcemesh
 nodeId=`cat ${datadir}/postdata_metadata.json | jq -r '.NodeId' |  base64 -d | xxd -p -c 32`
 
 
-commitmentAtxId=`./grpcurl -plaintext -d '' 127.0.0.1:9092 spacemesh.v1.ActivationService.Highest | jq -r '.atx.id.id' |  base64 -d | xxd -p -c 32`
+commitmentAtxId=0c545ed3ec10d97f1da60ca0197c69abcd46f259833a1bd5c5a71c2dac3cafbf
 
 
 ## Automatic Values
