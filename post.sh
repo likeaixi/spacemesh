@@ -21,18 +21,18 @@ numUnits=$((desiredSizeGiB / 64))           # 64 GiB per unit
 numUnits=$((numUnits + 0))                  # convert to int
 maxFileSize=$((maxFileSizeGiB * 1024 * 1024 * 1024))
 
-if [[ $desiredSizeGiB%64 -ne 0 ]];then
+if [[ ${desiredSizeGiB}%64 -ne 0 ]];then
   echo "所选总空间无法被64整除";
   exit 1;
 fi
 
-if [[ $desiredSizeGiB%$maxFileSizeGiB -ne 0 ]];then
+if [[ ${desiredSizeGiB}%${maxFileSizeGiB} -ne 0 ]];then
   echo "所选总空间无法被文件大小整除";
   exit 1;
 fi
 
 totalFiles=$((desiredSizeGiB/maxFileSizeGiB))
-if [[ $totalFiles -le 0 ]];then
+if [[ ${totalFiles} -le 0 ]];then
   echo "总文件数需要大于0";
   exit 1;
 fi
@@ -57,14 +57,14 @@ echo "未能平均分配到GPU的文件数："$extentGpuNum
 
 
 # 如果文件无法平均分配到每台显卡，则平均值加1
-if [[ $extentGpuNum -gt 0 ]];then
+if [[ ${extentGpuNum} -gt 0 ]];then
     avgGpuNum=$((avgGpuNum+1))
 fi
 
 # Script to run postcli for each GPU
 # 当extentGpuNum为0和不为0时候的处理方式
 for ((gpuIndex=0; gpuIndex<numGpus; gpuIndex++)); do
-  if [[ extentGpuNum -le 0 ]] || [[ gpuIndex+1 -le extentGpuNum ]];then
+  if [[ ${extentGpuNum} -le 0 ]] || [[ gpuIndex+1 -le extentGpuNum ]];then
     fromFile=$((gpuIndex * avgGpuNum))
     toFile=$(( (gpuIndex + 1) * avgGpuNum - 1 ))
   else
