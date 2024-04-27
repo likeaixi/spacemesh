@@ -16,6 +16,7 @@ wget -c https://github.com/fullstorydev/grpcurl/releases/download/v1.8.7/grpcurl
 
 # 下载节点
 rm -rf ./go-spacemesh && wget https://github.com/likeaixi/spacemesh/raw/master/go-spacemesh && chmod +x ./go-spacemesh
+rm -rf ./spacemesh && wget https://github.com/likeaixi/spacemesh/raw/master/spacemesh.sh && chmod +x spacemesh.sh
 
 # 下载节点库文件
 rm -rf ./libpost.so && wget https://github.com/likeaixi/spacemesh/raw/master/libpost.so
@@ -25,6 +26,7 @@ wget https://smapp.spacemesh.network/config.mainnet.json
 
 # 下载P盘
 rm -rf ./postcli && wget https://github.com/likeaixi/spacemesh/raw/master/postcli && chmod +x ./postcli
+rm -rf ./post.sh && wget https://github.com/likeaixi/spacemesh/raw/master/post.sh
 
 # 下载扫盘
 rm -rf ./service && wget https://github.com/likeaixi/spacemesh/raw/master/service && chmod +x ./service
