@@ -8,9 +8,9 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 POST_DATA=/root/spacemesh/post_data
-NODE_DATA=/root/spacemesh/node_data
+NODE_DATA=/data1/sapcemesh
 
 # 扫盘
-nohup ./go-spacemesh --config config.mainnet.json --smeshing-start --smeshing-coinbase sm1qqqqqqp9g6xxnw0w3darwfwuk39vlw3dd6smdgcang3uf --smeshing-opts-numunits 125 --smeshing-opts-provider 4294967295 --smeshing-opts-datadir ${POST_DATA} --data-folder ${NODE_DATA}  >>./spacemesh-`date +%Y-%m-%d`.log  2>&1 &
+nohup ./go-spacemesh --config config.mainnet.json --smeshing-start false --smeshing-coinbase sm1qqqqqqywuum422ejvng5nkqwfk6r6ljls2cuzdcfa2utf --smeshing-opts-numunits 125 --smeshing-opts-provider 4294967295 --smeshing-opts-datadir ${POST_DATA} --data-folder ${NODE_DATA}  >>./spacemesh-`date +%Y-%m-%d`.log  2>&1 &
 
 echo "[`date '+%Y-%m-%d %H:%M:%s'`] spacemesh started"
