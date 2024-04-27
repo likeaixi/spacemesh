@@ -3,7 +3,7 @@
 nodeName=spacemesh
 desiredSizeGiB=8000
 maxFileSizeGiB=4
-datadir=/data1/sapcemesh
+datadir=/data1/sapcemesh/post_data
 
 
 nodeId=`cat ${datadir}/postdata_metadata.json | jq -r '.NodeId' |  base64 -d | xxd -p -c 32`
