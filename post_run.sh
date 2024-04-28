@@ -5,7 +5,8 @@ avgFile=250
 nodeId=`cat ${datadir}/postdata_metadata.json | jq -r '.NodeId' |  base64 -d | xxd -p -c 32`
 commitmentAtxId=0c545ed3ec10d97f1da60ca0197c69abcd46f259833a1bd5c5a71c2dac3cafbf
 
-for ((i=0; i<8; i++)); do
+for ((i=0; i<8; i++));
+do
   fromFile=$((i*avgFile))
   toFile=$(($((i+1))*avgFile-1))
 
