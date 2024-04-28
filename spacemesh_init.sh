@@ -9,7 +9,7 @@ fi
 
 # 安装环境
 snap install go --classic
-apt update && apt install -y jq git git-lfs make curl build-essential unzip wget ocl-icd-opencl-dev unzip libudev-dev
+apt update && apt install -y jq git git-lfs make curl build-essential unzip ocl-icd-opencl-dev libudev-dev
 
 # 下载grpc
 wget -c https://github.com/fullstorydev/grpcurl/releases/download/v1.8.7/grpcurl_1.8.7_linux_x86_64.tar.gz && tar -zxvf ./grpcurl_1.8.7_linux_x86_64.tar.gz
