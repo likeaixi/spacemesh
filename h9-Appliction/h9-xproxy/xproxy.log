@@ -1,0 +1,394 @@
+2024/05/30 02:16:31 [I] *********************************************************
+2024/05/30 02:16:31 [I] ******** v3.0.3 (1) ********
+2024/05/30 02:16:31 [I] ******** X-Proxy (2024-03-03-23:55:32 GMT) ********
+2024/05/30 02:16:31 [I] ******** Chain (Spacemesh) ********
+2024/05/30 02:16:31 [I] ******** Config file (config.yaml) ********
+2024/05/30 02:16:31 [I] ******** Proxy server: http://192.168.111.89:9190 ********
+2024/05/30 02:16:31 [I] *********************************************************
+2024-05-30T02:16:31.358Z	[34mINFO[0m	engine/engine.go:402	=====> initialize database connections
+2024-05-30T02:16:31.361Z	[34mINFO[0m	engine/engine.go:402	=====> initialize configuration
+`sqlite` is not officially supported, running under compatibility mode.
+2024/05/30 02:16:31 [I] new chain: Spacemesh
+2024/05/30 02:16:31 [I] Stratum server: 192.168.111.89:9189
+2024/05/30 02:16:31.381 [1;34m[I][0m  http server Running on http://192.168.111.89:9190
+2024/05/30 02:16:40 [I] switch line spacemesh-sh1[wss]
+2024/05/30 02:16:46 [I] connect success Spacemesh spacemesh-sh1[wss] 
+2024/05/30 02:16:47 [I] new mining info, chain: Spacemesh height: 92379 jobId: 1425 enable:true
+2024/05/30 02:16:47 [I] No need to load PoET proof
+2024/05/30 02:17:31 [I] total client count:0 need close count:0
+2024/05/30 02:18:31 [I] total client count:0 need close count:0
+2024/05/30 02:19:31 [I] total client count:0 need close count:0
+2024/05/30 02:20:02 [I] new mining info, chain: Spacemesh height: 92380 jobId: 1426 enable:true
+2024/05/30 02:20:31 [I] total client count:0 need close count:0
+2024/05/30 02:21:31 [I] total client count:0 need close count:0
+2024/05/30 02:22:31 [I] total client count:0 need close count:0
+2024/05/30 02:23:31 [I] total client count:0 need close count:0
+2024/05/30 02:24:31 [I] total client count:0 need close count:0
+2024/05/30 02:25:03 [I] new mining info, chain: Spacemesh height: 92381 jobId: 1427 enable:true
+2024/05/30 02:25:31 [I] total client count:0 need close count:0
+2024/05/30 02:26:31 [I] total client count:0 need close count:0
+2024/05/30 02:27:31 [I] total client count:0 need close count:0
+2024/05/30 02:28:31 [I] total client count:0 need close count:0
+2024/05/30 02:29:31 [I] total client count:0 need close count:0
+2024/05/30 02:30:04 [I] new mining info, chain: Spacemesh height: 92382 jobId: 1428 enable:true
+2024/05/30 02:30:31 [I] total client count:0 need close count:0
+2024/05/30 02:31:31 [I] total client count:0 need close count:0
+2024/05/30 02:32:31 [I] total client count:0 need close count:0
+2024/05/30 02:33:31 [I] total client count:0 need close count:0
+2024/05/30 02:34:31 [I] total client count:0 need close count:0
+2024/05/30 02:35:03 [I] new mining info, chain: Spacemesh height: 92383 jobId: 1429 enable:true
+2024/05/30 02:35:31 [I] total client count:0 need close count:0
+2024/05/30 02:36:31 [I] total client count:0 need close count:0
+2024/05/30 02:37:31 [I] total client count:0 need close count:0
+2024/05/30 02:38:31 [I] total client count:0 need close count:0
+2024/05/30 02:39:31 [I] total client count:0 need close count:0
+2024/05/30 02:40:02 [I] new mining info, chain: Spacemesh height: 92384 jobId: 1430 enable:true
+2024/05/30 02:40:31 [I] total client count:0 need close count:0
+2024/05/30 02:41:31 [I] total client count:0 need close count:0
+2024/05/30 02:42:31 [I] total client count:0 need close count:0
+2024/05/30 02:43:02 [I] remove client 192.168.111.54
+2024/05/30 02:43:31 [I] total client count:1 need close count:0
+2024/05/30 02:44:31 [I] total client count:1 need close count:0
+2024/05/30 02:45:02 [I] new mining info, chain: Spacemesh height: 92385 jobId: 1431 enable:true
+2024/05/30 02:45:31 [I] total client count:1 need close count:0
+2024/05/30 02:46:31 [I] total client count:1 need close count:0
+2024/05/30 02:47:31 [I] total client count:1 need close count:0
+2024/05/30 02:48:31 [I] total client count:1 need close count:0
+2024/05/30 02:49:31 [I] total client count:1 need close count:0
+2024/05/30 02:50:04 [I] new mining info, chain: Spacemesh height: 92386 jobId: 1432 enable:true
+2024/05/30 02:50:31 [I] total client count:1 need close count:0
+2024/05/30 02:51:31 [I] total client count:1 need close count:0
+2024/05/30 02:52:31 [I] total client count:1 need close count:0
+2024/05/30 02:53:31 [I] total client count:1 need close count:0
+2024/05/30 02:54:31 [I] total client count:1 need close count:0
+2024/05/30 02:55:02 [I] new mining info, chain: Spacemesh height: 92387 jobId: 1433 enable:true
+2024/05/30 02:55:31 [I] total client count:1 need close count:0
+2024/05/30 02:56:31 [I] total client count:1 need close count:0
+2024/05/30 02:57:31 [I] total client count:1 need close count:0
+2024/05/30 02:58:31 [I] total client count:1 need close count:0
+2024/05/30 02:59:31 [I] total client count:1 need close count:0
+2024/05/30 03:00:03 [I] new mining info, chain: Spacemesh height: 92388 jobId: 1434 enable:true
+2024/05/30 03:00:31 [I] total client count:1 need close count:0
+2024/05/30 03:01:31 [I] total client count:1 need close count:0
+2024/05/30 03:02:31 [I] total client count:1 need close count:0
+2024/05/30 03:03:31 [I] total client count:1 need close count:0
+2024/05/30 03:04:31 [I] total client count:1 need close count:0
+2024/05/30 03:05:03 [I] new mining info, chain: Spacemesh height: 92389 jobId: 1435 enable:true
+2024/05/30 03:05:31 [I] total client count:1 need close count:0
+2024/05/30 03:06:31 [I] total client count:1 need close count:0
+2024/05/30 03:07:31 [I] total client count:1 need close count:0
+2024/05/30 03:08:31 [I] total client count:1 need close count:0
+2024/05/30 03:09:31 [I] total client count:1 need close count:0
+2024/05/30 03:10:02 [I] new mining info, chain: Spacemesh height: 92390 jobId: 1436 enable:true
+2024/05/30 03:10:31 [I] total client count:1 need close count:0
+2024/05/30 03:11:31 [I] total client count:1 need close count:0
+2024/05/30 03:12:31 [I] total client count:1 need close count:0
+2024/05/30 03:13:31 [I] total client count:1 need close count:0
+2024/05/30 03:14:31 [I] total client count:1 need close count:0
+2024/05/30 03:15:02 [I] new mining info, chain: Spacemesh height: 92391 jobId: 1437 enable:true
+2024/05/30 03:15:31 [I] total client count:1 need close count:0
+2024/05/30 03:16:31 [I] total client count:1 need close count:0
+2024/05/30 03:17:31 [I] total client count:1 need close count:0
+2024/05/30 03:18:31 [I] total client count:1 need close count:0
+2024/05/30 03:19:31 [I] total client count:1 need close count:0
+2024/05/30 03:20:02 [I] new mining info, chain: Spacemesh height: 92392 jobId: 1438 enable:true
+2024/05/30 03:20:31 [I] total client count:1 need close count:0
+2024/05/30 03:21:31 [I] total client count:1 need close count:0
+2024/05/30 03:22:31 [I] total client count:1 need close count:0
+2024/05/30 03:23:31 [I] total client count:1 need close count:0
+2024/05/30 03:24:31 [I] total client count:1 need close count:0
+2024/05/30 03:25:04 [I] new mining info, chain: Spacemesh height: 92393 jobId: 1439 enable:true
+2024/05/30 03:25:31 [I] total client count:1 need close count:0
+2024/05/30 03:26:31 [I] total client count:1 need close count:0
+2024/05/30 03:27:31 [I] total client count:1 need close count:0
+2024/05/30 03:28:31 [I] total client count:1 need close count:0
+2024/05/30 03:29:31 [I] total client count:1 need close count:0
+2024/05/30 03:29:35 [I] remove client 192.168.111.54
+2024/05/30 03:30:06 [I] new mining info, chain: Spacemesh height: 92394 jobId: 1440 enable:true
+2024/05/30 03:30:31 [I] total client count:0 need close count:0
+2024/05/30 03:31:31 [I] total client count:0 need close count:0
+2024/05/30 03:32:31 [I] total client count:0 need close count:0
+2024/05/30 03:33:31 [I] total client count:0 need close count:0
+2024/05/30 03:34:31 [I] total client count:0 need close count:0
+2024/05/30 03:35:02 [I] new mining info, chain: Spacemesh height: 92395 jobId: 1441 enable:true
+2024/05/30 03:35:31 [I] total client count:0 need close count:0
+2024/05/30 03:36:31 [I] total client count:0 need close count:0
+2024/05/30 03:37:31 [I] total client count:0 need close count:0
+2024/05/30 03:38:31 [I] total client count:0 need close count:0
+2024/05/30 03:39:31 [I] total client count:0 need close count:0
+2024/05/30 03:40:04 [I] new mining info, chain: Spacemesh height: 92396 jobId: 1442 enable:true
+2024/05/30 03:40:31 [I] total client count:0 need close count:0
+2024/05/30 03:41:31 [I] total client count:0 need close count:0
+2024/05/30 03:42:31 [I] total client count:0 need close count:0
+2024/05/30 03:43:31 [I] total client count:0 need close count:0
+2024/05/30 03:44:31 [I] total client count:0 need close count:0
+2024/05/30 03:45:02 [I] new mining info, chain: Spacemesh height: 92397 jobId: 1443 enable:true
+2024/05/30 03:45:31 [I] total client count:0 need close count:0
+2024/05/30 03:46:31 [I] total client count:0 need close count:0
+2024/05/30 03:47:31 [I] total client count:0 need close count:0
+2024/05/30 03:48:31 [I] total client count:0 need close count:0
+2024/05/30 03:49:31 [I] total client count:0 need close count:0
+2024/05/30 03:50:02 [I] new mining info, chain: Spacemesh height: 92398 jobId: 1444 enable:true
+2024/05/30 03:50:31 [I] total client count:0 need close count:0
+2024/05/30 03:51:31 [I] total client count:0 need close count:0
+2024/05/30 03:52:31 [I] total client count:0 need close count:0
+2024/05/30 03:53:31 [I] total client count:0 need close count:0
+2024/05/30 03:54:31 [I] total client count:0 need close count:0
+2024/05/30 03:55:04 [I] new mining info, chain: Spacemesh height: 92399 jobId: 1445 enable:true
+2024/05/30 03:55:31 [I] total client count:0 need close count:0
+2024/05/30 03:56:31 [I] total client count:0 need close count:0
+2024/05/30 03:57:31 [I] total client count:0 need close count:0
+2024/05/30 03:58:31 [I] total client count:0 need close count:0
+2024/05/30 03:59:31 [I] total client count:0 need close count:0
+2024/05/30 04:00:01 [I] new mining info, chain: Spacemesh height: 92400 jobId: 1446 enable:true
+2024/05/30 04:00:31 [I] total client count:0 need close count:0
+2024/05/30 04:01:31 [I] total client count:0 need close count:0
+2024/05/30 04:02:31 [I] total client count:0 need close count:0
+2024/05/30 04:03:31 [I] total client count:0 need close count:0
+2024/05/30 04:04:31 [I] total client count:0 need close count:0
+2024/05/30 04:05:03 [I] new mining info, chain: Spacemesh height: 92401 jobId: 1447 enable:true
+2024/05/30 04:05:31 [I] total client count:0 need close count:0
+2024/05/30 04:06:31 [I] total client count:0 need close count:0
+2024/05/30 04:07:31 [I] total client count:0 need close count:0
+2024/05/30 04:08:31 [I] total client count:0 need close count:0
+2024/05/30 04:09:31 [I] total client count:0 need close count:0
+2024/05/30 04:10:03 [I] new mining info, chain: Spacemesh height: 92402 jobId: 1448 enable:true
+2024/05/30 04:10:31 [I] total client count:0 need close count:0
+2024/05/30 04:11:31 [I] total client count:0 need close count:0
+2024/05/30 04:12:31 [I] total client count:0 need close count:0
+2024/05/30 04:13:31 [I] total client count:0 need close count:0
+2024/05/30 04:14:31 [I] total client count:0 need close count:0
+2024/05/30 04:15:02 [I] new mining info, chain: Spacemesh height: 92403 jobId: 1449 enable:true
+2024/05/30 04:15:31 [I] total client count:0 need close count:0
+2024/05/30 04:16:31 [I] total client count:0 need close count:0
+2024/05/30 04:17:31 [I] total client count:0 need close count:0
+2024/05/30 04:18:31 [I] total client count:0 need close count:0
+2024/05/30 04:19:31 [I] total client count:0 need close count:0
+2024/05/30 04:20:02 [I] new mining info, chain: Spacemesh height: 92404 jobId: 1450 enable:true
+2024/05/30 04:20:31 [I] total client count:0 need close count:0
+2024/05/30 04:21:31 [I] total client count:0 need close count:0
+2024/05/30 04:22:31 [I] total client count:0 need close count:0
+2024/05/30 04:23:31 [I] total client count:0 need close count:0
+2024/05/30 04:24:31 [I] total client count:0 need close count:0
+2024/05/30 04:25:03 [I] new mining info, chain: Spacemesh height: 92405 jobId: 1451 enable:true
+2024/05/30 04:25:31 [I] total client count:0 need close count:0
+2024/05/30 04:26:31 [I] total client count:0 need close count:0
+2024/05/30 04:27:31 [I] total client count:0 need close count:0
+2024/05/30 04:28:31 [I] total client count:0 need close count:0
+2024/05/30 04:29:31 [I] total client count:0 need close count:0
+2024/05/30 04:30:03 [I] new mining info, chain: Spacemesh height: 92406 jobId: 1452 enable:true
+2024/05/30 04:30:31 [I] total client count:0 need close count:0
+2024/05/30 04:31:31 [I] total client count:0 need close count:0
+2024/05/30 04:32:31 [I] total client count:0 need close count:0
+2024/05/30 04:33:31 [I] total client count:0 need close count:0
+2024/05/30 04:34:31 [I] total client count:0 need close count:0
+2024/05/30 04:35:02 [I] new mining info, chain: Spacemesh height: 92407 jobId: 1453 enable:true
+2024/05/30 04:35:31 [I] total client count:0 need close count:0
+2024/05/30 04:36:31 [I] total client count:0 need close count:0
+2024/05/30 04:37:31 [I] total client count:0 need close count:0
+2024/05/30 04:38:31 [I] total client count:0 need close count:0
+2024/05/30 04:39:31 [I] total client count:0 need close count:0
+2024/05/30 04:40:03 [I] new mining info, chain: Spacemesh height: 92408 jobId: 1454 enable:true
+2024/05/30 04:40:31 [I] total client count:0 need close count:0
+2024/05/30 04:41:31 [I] total client count:0 need close count:0
+2024/05/30 04:42:31 [I] total client count:0 need close count:0
+2024/05/30 04:43:31 [I] total client count:0 need close count:0
+2024/05/30 04:44:31 [I] total client count:0 need close count:0
+2024/05/30 04:45:02 [I] new mining info, chain: Spacemesh height: 92409 jobId: 1455 enable:true
+2024/05/30 04:45:31 [I] total client count:1 need close count:0
+2024/05/30 04:45:41 [I] remove client 192.168.111.1
+2024/05/30 04:46:31 [I] total client count:0 need close count:0
+2024/05/30 04:47:31 [I] total client count:1 need close count:0
+2024/05/30 04:48:31 [I] total client count:1 need close count:0
+2024/05/30 04:49:31 [I] total client count:1 need close count:0
+2024/05/30 04:50:03 [I] new mining info, chain: Spacemesh height: 92410 jobId: 1456 enable:true
+2024/05/30 04:50:31 [I] total client count:1 need close count:0
+2024/05/30 04:51:31 [I] total client count:1 need close count:0
+2024/05/30 04:52:31 [I] total client count:1 need close count:0
+2024/05/30 04:53:31 [I] total client count:1 need close count:0
+2024/05/30 04:54:31 [I] total client count:1 need close count:0
+2024/05/30 04:55:02 [I] new mining info, chain: Spacemesh height: 92411 jobId: 1457 enable:true
+2024/05/30 04:55:31 [I] total client count:1 need close count:0
+2024/05/30 04:56:31 [I] total client count:1 need close count:0
+2024/05/30 04:57:31 [I] total client count:1 need close count:0
+2024/05/30 04:58:31 [I] total client count:1 need close count:0
+2024/05/30 04:59:31 [I] total client count:1 need close count:0
+2024/05/30 05:00:03 [I] new mining info, chain: Spacemesh height: 92412 jobId: 1458 enable:true
+2024/05/30 05:00:31 [I] total client count:1 need close count:0
+2024/05/30 05:01:31 [I] total client count:1 need close count:0
+2024/05/30 05:02:31 [I] total client count:1 need close count:0
+2024/05/30 05:03:31 [I] total client count:1 need close count:0
+2024/05/30 05:04:31 [I] total client count:1 need close count:0
+2024/05/30 05:05:03 [I] new mining info, chain: Spacemesh height: 92413 jobId: 1459 enable:true
+2024/05/30 05:05:31 [I] total client count:1 need close count:0
+2024/05/30 05:06:31 [I] total client count:1 need close count:0
+2024/05/30 05:06:40 [I] remove client 192.168.111.1
+2024/05/30 05:07:31 [I] total client count:1 need close count:0
+2024/05/30 05:08:31 [I] total client count:1 need close count:0
+2024/05/30 05:09:31 [I] total client count:1 need close count:0
+2024/05/30 05:10:02 [I] new mining info, chain: Spacemesh height: 92414 jobId: 1460 enable:true
+2024/05/30 05:10:31 [I] total client count:1 need close count:0
+2024/05/30 05:11:25 [I] remove client 192.168.111.1
+2024/05/30 05:11:31 [I] total client count:0 need close count:0
+2024/05/30 05:12:31 [I] total client count:0 need close count:0
+2024/05/30 05:13:31 [I] total client count:0 need close count:0
+2024/05/30 05:14:31 [I] total client count:1 need close count:0
+2024/05/30 05:14:39 [I] remove client 192.168.111.1
+2024/05/30 05:15:03 [I] new mining info, chain: Spacemesh height: 92415 jobId: 1461 enable:true
+2024/05/30 05:15:31 [I] total client count:1 need close count:0
+2024/05/30 05:16:31 [I] total client count:1 need close count:0
+2024/05/30 05:17:31 [I] total client count:1 need close count:0
+2024/05/30 05:18:31 [I] total client count:1 need close count:0
+2024/05/30 05:19:31 [I] total client count:1 need close count:0
+2024/05/30 05:20:03 [I] new mining info, chain: Spacemesh height: 92416 jobId: 1462 enable:true
+2024/05/30 05:20:31 [I] total client count:1 need close count:0
+2024/05/30 05:21:31 [I] total client count:1 need close count:0
+2024/05/30 05:22:31 [I] total client count:1 need close count:0
+2024/05/30 05:23:31 [I] total client count:1 need close count:0
+2024/05/30 05:24:31 [I] total client count:1 need close count:0
+2024/05/30 05:25:03 [I] new mining info, chain: Spacemesh height: 92417 jobId: 1463 enable:true
+2024/05/30 05:25:31 [I] total client count:1 need close count:0
+2024/05/30 05:26:31 [I] total client count:1 need close count:0
+2024/05/30 05:27:31 [I] total client count:1 need close count:0
+2024/05/30 05:28:31 [I] total client count:1 need close count:0
+2024/05/30 05:29:31 [I] total client count:1 need close count:0
+2024/05/30 05:30:02 [I] new mining info, chain: Spacemesh height: 92418 jobId: 1464 enable:true
+2024/05/30 05:30:31 [I] total client count:1 need close count:0
+2024/05/30 05:31:31 [I] total client count:1 need close count:0
+2024/05/30 05:32:31 [I] total client count:1 need close count:0
+2024/05/30 05:33:31 [I] total client count:1 need close count:0
+2024/05/30 05:34:31 [I] total client count:1 need close count:0
+2024/05/30 05:35:01 [I] new mining info, chain: Spacemesh height: 92419 jobId: 1465 enable:true
+2024/05/30 05:35:31 [I] total client count:1 need close count:0
+2024/05/30 05:36:31 [I] total client count:1 need close count:0
+2024/05/30 05:37:31 [I] total client count:1 need close count:0
+2024/05/30 05:38:31 [I] total client count:1 need close count:0
+2024/05/30 05:39:31 [I] total client count:1 need close count:0
+2024/05/30 05:40:03 [I] new mining info, chain: Spacemesh height: 92420 jobId: 1466 enable:true
+2024/05/30 05:40:31 [I] total client count:1 need close count:0
+2024/05/30 05:41:31 [I] total client count:1 need close count:0
+2024/05/30 05:42:31 [I] total client count:1 need close count:0
+2024/05/30 05:43:31 [I] total client count:1 need close count:0
+2024/05/30 05:44:31 [I] total client count:1 need close count:0
+2024/05/30 05:45:03 [I] new mining info, chain: Spacemesh height: 92421 jobId: 1467 enable:true
+2024/05/30 05:45:31 [I] total client count:1 need close count:0
+2024/05/30 05:46:31 [I] total client count:1 need close count:0
+2024/05/30 05:47:31 [I] total client count:1 need close count:0
+2024/05/30 05:48:31 [I] total client count:1 need close count:0
+2024/05/30 05:49:31 [I] total client count:1 need close count:0
+2024/05/30 05:50:01 [I] new mining info, chain: Spacemesh height: 92422 jobId: 1468 enable:true
+2024/05/30 05:50:31 [I] total client count:1 need close count:0
+2024/05/30 05:51:31 [I] total client count:1 need close count:0
+2024/05/30 05:52:31 [I] total client count:1 need close count:0
+2024/05/30 05:53:31 [I] total client count:1 need close count:0
+2024/05/30 05:54:31 [I] total client count:1 need close count:0
+2024/05/30 05:55:03 [I] new mining info, chain: Spacemesh height: 92423 jobId: 1469 enable:true
+2024/05/30 05:55:31 [I] total client count:1 need close count:0
+2024/05/30 05:56:31 [I] total client count:1 need close count:0
+2024/05/30 05:57:31 [I] total client count:1 need close count:0
+2024/05/30 05:58:31 [I] total client count:1 need close count:0
+2024/05/30 05:59:31 [I] total client count:1 need close count:0
+2024/05/30 06:00:05 [I] new mining info, chain: Spacemesh height: 92424 jobId: 1470 enable:true
+2024/05/30 06:00:31 [I] total client count:1 need close count:0
+2024/05/30 06:01:31 [I] total client count:1 need close count:0
+2024/05/30 06:02:31 [I] total client count:1 need close count:0
+2024/05/30 06:03:31 [I] total client count:1 need close count:0
+2024/05/30 06:04:31 [I] total client count:1 need close count:0
+2024/05/30 06:05:04 [I] new mining info, chain: Spacemesh height: 92425 jobId: 1471 enable:true
+2024/05/30 06:05:31 [I] total client count:1 need close count:0
+2024/05/30 06:06:31 [I] total client count:1 need close count:0
+2024/05/30 06:07:31 [I] total client count:1 need close count:0
+2024/05/30 06:08:31 [I] total client count:1 need close count:0
+2024/05/30 06:09:31 [I] total client count:1 need close count:0
+2024/05/30 06:10:03 [I] new mining info, chain: Spacemesh height: 92426 jobId: 1472 enable:true
+2024/05/30 06:10:31 [I] total client count:1 need close count:0
+2024/05/30 06:11:31 [I] total client count:1 need close count:0
+2024/05/30 06:12:31 [I] total client count:1 need close count:0
+2024/05/30 06:13:31 [I] total client count:1 need close count:0
+2024/05/30 06:14:31 [I] total client count:1 need close count:0
+2024/05/30 06:15:03 [I] new mining info, chain: Spacemesh height: 92427 jobId: 1473 enable:true
+2024/05/30 06:15:31 [I] total client count:1 need close count:0
+2024/05/30 06:16:31 [I] total client count:1 need close count:0
+2024/05/30 06:17:31 [I] total client count:1 need close count:0
+2024/05/30 06:18:31 [I] total client count:1 need close count:0
+2024/05/30 06:19:31 [I] total client count:1 need close count:0
+2024/05/30 06:20:04 [I] new mining info, chain: Spacemesh height: 92428 jobId: 1474 enable:true
+2024/05/30 06:20:31 [I] total client count:1 need close count:0
+2024/05/30 06:21:31 [I] total client count:1 need close count:0
+2024/05/30 06:22:31 [I] total client count:1 need close count:0
+2024/05/30 06:23:31 [I] total client count:1 need close count:0
+2024/05/30 06:24:31 [I] total client count:1 need close count:0
+2024/05/30 06:25:05 [I] new mining info, chain: Spacemesh height: 92429 jobId: 1475 enable:true
+2024/05/30 06:25:31 [I] total client count:1 need close count:0
+2024/05/30 06:26:31 [I] total client count:1 need close count:0
+2024/05/30 06:27:31 [I] total client count:1 need close count:0
+2024/05/30 06:28:31 [I] total client count:1 need close count:0
+2024/05/30 06:29:31 [I] total client count:1 need close count:0
+2024/05/30 06:30:01 [I] new mining info, chain: Spacemesh height: 92430 jobId: 1476 enable:true
+2024/05/30 06:30:31 [I] total client count:1 need close count:0
+2024/05/30 06:31:31 [I] total client count:1 need close count:0
+2024/05/30 06:32:31 [I] total client count:1 need close count:0
+2024/05/30 06:33:31 [I] total client count:1 need close count:0
+2024/05/30 06:34:31 [I] total client count:1 need close count:0
+2024/05/30 06:35:03 [I] new mining info, chain: Spacemesh height: 92431 jobId: 1477 enable:true
+2024/05/30 06:35:31 [I] total client count:1 need close count:0
+2024/05/30 06:36:31 [I] total client count:1 need close count:0
+2024/05/30 06:37:31 [I] total client count:1 need close count:0
+2024/05/30 06:38:31 [I] total client count:1 need close count:0
+2024/05/30 06:39:31 [I] total client count:1 need close count:0
+2024/05/30 06:40:03 [I] new mining info, chain: Spacemesh height: 92432 jobId: 1478 enable:true
+2024/05/30 06:40:31 [I] total client count:1 need close count:0
+2024/05/30 06:41:31 [I] total client count:1 need close count:0
+2024/05/30 06:42:31 [I] total client count:1 need close count:0
+2024/05/30 06:43:31 [I] total client count:1 need close count:0
+2024/05/30 06:44:31 [I] total client count:1 need close count:0
+2024/05/30 06:45:03 [I] new mining info, chain: Spacemesh height: 92433 jobId: 1479 enable:true
+2024/05/30 06:45:31 [I] total client count:1 need close count:0
+2024/05/30 06:46:31 [I] total client count:1 need close count:0
+2024/05/30 06:47:31 [I] total client count:1 need close count:0
+2024/05/30 06:48:31 [I] total client count:1 need close count:0
+2024/05/30 06:49:31 [I] total client count:1 need close count:0
+2024/05/30 06:50:01 [I] new mining info, chain: Spacemesh height: 92434 jobId: 1480 enable:true
+2024/05/30 06:50:31 [I] total client count:1 need close count:0
+2024/05/30 06:51:31 [I] total client count:1 need close count:0
+2024/05/30 06:52:31 [I] total client count:1 need close count:0
+2024/05/30 06:53:31 [I] total client count:1 need close count:0
+2024/05/30 06:54:31 [I] total client count:1 need close count:0
+2024/05/30 06:55:02 [I] new mining info, chain: Spacemesh height: 92435 jobId: 1481 enable:true
+2024/05/30 06:55:31 [I] total client count:1 need close count:0
+2024/05/30 06:56:31 [I] total client count:1 need close count:0
+2024/05/30 06:57:31 [I] total client count:1 need close count:0
+2024/05/30 06:58:31 [I] total client count:1 need close count:0
+2024/05/30 06:59:31 [I] total client count:1 need close count:0
+2024/05/30 07:00:07 [I] new mining info, chain: Spacemesh height: 92436 jobId: 1482 enable:true
+2024/05/30 07:00:31 [I] total client count:1 need close count:0
+2024/05/30 07:01:31 [I] total client count:1 need close count:0
+2024/05/30 07:02:31 [I] total client count:1 need close count:0
+2024/05/30 07:03:31 [I] total client count:1 need close count:0
+2024/05/30 07:04:31 [I] total client count:1 need close count:0
+2024/05/30 07:05:02 [I] new mining info, chain: Spacemesh height: 92437 jobId: 1483 enable:true
+2024/05/30 07:05:31 [I] total client count:1 need close count:0
+2024/05/30 07:06:31 [I] total client count:1 need close count:0
+2024/05/30 07:07:31 [I] total client count:1 need close count:0
+2024/05/30 07:08:31 [I] total client count:1 need close count:0
+2024/05/30 07:09:31 [I] total client count:1 need close count:0
+2024/05/30 07:10:02 [I] new mining info, chain: Spacemesh height: 92438 jobId: 1484 enable:true
+2024/05/30 07:10:31 [I] total client count:1 need close count:0
+2024/05/30 07:11:31 [I] total client count:1 need close count:0
+2024/05/30 07:12:31 [I] total client count:1 need close count:0
+2024/05/30 07:13:31 [I] total client count:1 need close count:0
+2024/05/30 07:14:31 [I] total client count:1 need close count:0
+2024/05/30 07:15:02 [I] new mining info, chain: Spacemesh height: 92439 jobId: 1485 enable:true
+2024/05/30 07:15:31 [I] total client count:1 need close count:0
+2024/05/30 07:16:31 [I] total client count:1 need close count:0
+2024/05/30 07:17:31 [I] total client count:1 need close count:0
+2024/05/30 07:18:31 [I] total client count:1 need close count:0
+2024/05/30 07:19:31 [I] total client count:1 need close count:0
+2024/05/30 07:20:01 [I] new mining info, chain: Spacemesh height: 92440 jobId: 1486 enable:true
+2024/05/30 07:20:31 [I] total client count:1 need close count:0
+2024/05/30 07:21:31 [I] total client count:1 need close count:0
+2024/05/30 07:22:31 [I] total client count:1 need close count:0
+2024/05/30 07:23:31 [I] total client count:1 need close count:0
+2024/05/30 07:24:31 [I] total client count:1 need close count:0
+2024/05/30 07:25:03 [I] new mining info, chain: Spacemesh height: 92441 jobId: 1487 enable:true
+2024/05/30 07:25:31 [I] total client count:1 need close count:0

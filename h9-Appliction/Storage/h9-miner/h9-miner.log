@@ -1,0 +1,342 @@
+{1024 1048576}
+Rlimit Final {999999 999999}
+您同意免除本軟件運營方的全部責任
+You agree to release the software operator from all responsibilities
+***************************************************
+**** Miner:H9-Miner-SpaceMesh
+**** Version:v3.0.3 1
+**** BuildTime:2024-03-03-23:47:26 GMT
+**** MinerName:hty-001
+**** ApiKey:
+**** Path count:11
+***************************************************
+Invalid apikey or address
+time="2024-05-30 05:13 51" level=info msg=post-rs version=post-rs-0.4.4-7
+time="2024-05-30 05:13 51" level=info msg="CPU Information" BoostFreq=0 BrandName="Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz" Cache="map[L1D:32768 L1I:32768 L2:262144 L3:4.194304e+07]" CacheLine=64 Family=6 Hz=2.5e+09 LogicalCores=32 Model=79 PhysicalCores=16 SGX="map[Available:false EPCSections:<nil> LaunchControl:false MaxEnclaveSize64:0 MaxEnclaveSizeNot64:0 SGX1Supported:false SGX2Supported:false]" ThreadsPerCore=2 VendorID=1 VendorString=GenuineIntel
+time="2024-05-30 05:13 51" level=info msg="Start plot" Path=11 PlotInstance=1 SkipUninitialized=false
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.80 TiB" path=/data1/ used="26.41 GiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.83 TiB" path=/data2/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.83 TiB" path=/data3/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data4/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data5/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data6/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data7/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data8/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data9/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data10/ used="12.00 KiB"
+time="2024-05-30 05:13 51" level=info msg="Disk usage" free="10.91 TiB" path=/data11/ used="12.00 KiB"
+time="2024-05-30 05:13 53" level=info msg="switch line" chain=SPACEMESH type=ws url="spacemesh-sh1[wss]"
+time="2024-05-30 05:14 11" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+time="2024-05-30 05:14 11" level=info msg="Client run start" devices=8 server="192.168.111.54:10090"
+time="2024-05-30 05:14 14" level=info msg="Start plot" TargetDir=/data1
+time="2024-05-30 05:14 14" level=info msg="Continue plot" ID=6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5 LabelsPerUnit=4294967296 NumUnits=15 Path=/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5
+time="2024-05-30 05:14 14" level=info msg="initialization: starting to write file" fileIndex=0 startPosition=0 targetNumLabels=2147483648
+time="2024-05-30 05:14 14" level=info msg="Thread configuration information" InitPoST=false Nonces=128 PoETServers="[]" PoETThread=1 PoSTAffinity=-1 PoSTAffinityStep=1 PoSTCPUIds="[]" PoSTInstance=11 PoSTThread=64 RandomXAffinity=-1 RandomXAffinityStep=1 RandomXThread=62
+time="2024-05-30 05:14 14" level=info msg="VerifierContext created"
+time="2024-05-30 05:14 15" level=info msg="init server" type=ws url="spacemesh-sh1[wss]"
+time="2024-05-30 05:14 18" level=info msg="connect success" name="spacemesh-sh1[wss]"
+time="2024-05-30 05:14 22" level=info msg=LoadDone
+time="2024-05-30 05:14 22" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:14 22" level=info msg="PoST Status change" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:14 22" level=info msg="Disable PoST"
+time="2024-05-30 05:14 22" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:14 22" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:14 23" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92414 jobId=1460 scan consume=0 scan time="2024-05-30 05:14:23"
+time="2024-05-30 05:14 23" level=info msg=x-proxy url="ws://192.168.111.89:9190/ws"
+time="2024-05-30 05:14 26" level=info msg="upload status"
+time="2024-05-30 05:14 31" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:14:35]	Speed:[48.38 MiB/s]	Progress:[82.42%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+{1024 1048576}
+Rlimit Final {999999 999999}
+您同意免除本軟件運營方的全部責任
+You agree to release the software operator from all responsibilities
+***************************************************
+**** Miner:H9-Miner-SpaceMesh
+**** Version:v3.0.3 1
+**** BuildTime:2024-03-03-23:47:26 GMT
+**** MinerName:hty-001
+**** ApiKey:
+**** Path count:11
+***************************************************
+Invalid apikey or address
+time="2024-05-30 05:14 53" level=info msg=post-rs version=post-rs-0.4.4-7
+time="2024-05-30 05:14 53" level=info msg="CPU Information" BoostFreq=0 BrandName="Intel(R) Xeon(R) CPU E5-2682 v4 @ 2.50GHz" Cache="map[L1D:32768 L1I:32768 L2:262144 L3:4.194304e+07]" CacheLine=64 Family=6 Hz=2.5e+09 LogicalCores=32 Model=79 PhysicalCores=16 SGX="map[Available:false EPCSections:<nil> LaunchControl:false MaxEnclaveSize64:0 MaxEnclaveSizeNot64:0 SGX1Supported:false SGX2Supported:false]" ThreadsPerCore=2 VendorID=1 VendorString=GenuineIntel
+time="2024-05-30 05:14 53" level=info msg="Start plot" Path=11 PlotInstance=1 SkipUninitialized=false
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.80 TiB" path=/data1/ used="26.59 GiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.83 TiB" path=/data2/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.83 TiB" path=/data3/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data4/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data5/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data6/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data7/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data8/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data9/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data10/ used="12.00 KiB"
+time="2024-05-30 05:14 53" level=info msg="Disk usage" free="10.91 TiB" path=/data11/ used="12.00 KiB"
+time="2024-05-30 05:14 55" level=info msg="switch line" chain=SPACEMESH type=ws url="spacemesh-sh1[wss]"
+time="2024-05-30 05:15 13" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+time="2024-05-30 05:15 13" level=info msg="Client run start" devices=8 server="192.168.111.54:10090"
+time="2024-05-30 05:15 16" level=info msg="Start plot" TargetDir=/data1
+time="2024-05-30 05:15 16" level=info msg="Continue plot" ID=6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5 LabelsPerUnit=4294967296 NumUnits=15 Path=/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5
+time="2024-05-30 05:15 16" level=info msg="initialization: starting to write file" fileIndex=0 startPosition=0 targetNumLabels=2147483648
+time="2024-05-30 05:15 16" level=info msg="Thread configuration information" InitPoST=false Nonces=128 PoETServers="[]" PoETThread=1 PoSTAffinity=-1 PoSTAffinityStep=1 PoSTCPUIds="[]" PoSTInstance=11 PoSTThread=64 RandomXAffinity=-1 RandomXAffinityStep=1 RandomXThread=62
+time="2024-05-30 05:15 17" level=info msg="VerifierContext created"
+time="2024-05-30 05:15 17" level=info msg="init server" type=ws url="spacemesh-sh1[wss]"
+time="2024-05-30 05:15 20" level=info msg="connect success" name="spacemesh-sh1[wss]"
+time="2024-05-30 05:15 24" level=info msg=LoadDone
+time="2024-05-30 05:15 24" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:15 24" level=info msg="PoST Status change" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:15 24" level=info msg="Disable PoST"
+time="2024-05-30 05:15 24" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:15 24" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:15 25" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92415 jobId=1461 scan consume=0 scan time="2024-05-30 05:15:25"
+time="2024-05-30 05:15 25" level=info msg=x-proxy url="ws://192.168.111.89:9190/ws"
+time="2024-05-30 05:15 28" level=info msg="upload status"
+time="2024-05-30 05:15 33" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:15:37]	Speed:[52.57 MiB/s]	Progress:[82.69%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:15 53" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:15:58]	Speed:[54.10 MiB/s]	Progress:[86.25%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:16 02" level=info msg="initialization: add task completed" fileIndex=0
+time="2024-05-30 05:16 13" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:16:19]	Speed:[54.22 MiB/s]	Progress:[89.75%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:16 33" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:16:40]	Speed:[54.29 MiB/s]	Progress:[93.24%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:16 53" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:17:01]	Speed:[54.48 MiB/s]	Progress:[96.78%]	File:[0/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:17 13" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+time="2024-05-30 05:17 20" level=info msg="initialization: completed" fileIndex=0 numLabelsWritten=2147483648
+time="2024-05-30 05:17 20" level=info msg="initialization: starting to write file" fileIndex=1 startPosition=2147483648 targetNumLabels=2147483648
+time="2024-05-30 05:17 33" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:17:41]	Speed:[52.19 MiB/s]	Progress:[3.32%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:17 53" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:18:02]	Speed:[53.52 MiB/s]	Progress:[6.84%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:18 13" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:18:23]	Speed:[53.84 MiB/s]	Progress:[10.33%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:18 30" level=info msg="upload status"
+time="2024-05-30 05:18 33" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:18:44]	Speed:[54.00 MiB/s]	Progress:[13.82%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:18 53" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:19:05]	Speed:[54.10 MiB/s]	Progress:[17.31%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:19 13" level=error msg="Failed to get devices" error="Get \"http://192.168.111.106:10090/devices\": dial tcp 192.168.111.106:10090: connect: connection refused" f7="{loggers.go,logging.CPrint,168}" f8="{diupUMk2.go,Q772laoU.(*ZtvUpvJZ).pzm_sPR8,1}" f9="{asm_amd64.s,runtime.goexit,1581}" server="192.168.111.106:10090"
+[2024-05-30 05:19:26]	Speed:[54.03 MiB/s]	Progress:[20.75%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:19 33" level=info msg="Client run start" devices=8 server="192.168.111.106:10090"
+[2024-05-30 05:19:47]	Speed:[58.29 MiB/s]	Progress:[26.12%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:20 03" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:20 03" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:20 03" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:20 04" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92416 jobId=1462 scan consume=0 scan time="2024-05-30 05:20:04"
+[2024-05-30 05:20:08]	Speed:[64.81 MiB/s]	Progress:[33.20%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:20:29]	Speed:[69.93 MiB/s]	Progress:[40.31%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:20:50]	Speed:[73.94 MiB/s]	Progress:[47.36%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:21:11]	Speed:[77.33 MiB/s]	Progress:[54.49%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:21:32]	Speed:[80.03 MiB/s]	Progress:[61.50%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:21 32" level=info msg="upload status"
+[2024-05-30 05:21:53]	Speed:[82.32 MiB/s]	Progress:[68.55%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:22:14]	Speed:[84.33 MiB/s]	Progress:[75.63%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:22:35]	Speed:[86.10 MiB/s]	Progress:[82.74%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:22 46" level=info msg="initialization: add task completed" fileIndex=1
+[2024-05-30 05:22:56]	Speed:[87.71 MiB/s]	Progress:[89.92%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:23:17]	Speed:[88.99 MiB/s]	Progress:[96.92%]	File:[1/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:23 26" level=info msg="initialization: completed" fileIndex=1 numLabelsWritten=2147483648
+time="2024-05-30 05:23 26" level=info msg="initialization: starting to write file" fileIndex=2 startPosition=4294967296 targetNumLabels=2147483648
+[2024-05-30 05:23:47]	Speed:[106.29 MiB/s]	Progress:[6.79%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:24:08]	Speed:[107.81 MiB/s]	Progress:[13.79%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:24:29]	Speed:[109.21 MiB/s]	Progress:[20.97%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:24 34" level=info msg="upload status"
+[2024-05-30 05:24:50]	Speed:[109.14 MiB/s]	Progress:[27.93%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:25 03" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:25 03" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:25 03" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:25 04" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92417 jobId=1463 scan consume=0 scan time="2024-05-30 05:25:04"
+[2024-05-30 05:25:11]	Speed:[109.49 MiB/s]	Progress:[35.06%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:25:32]	Speed:[109.59 MiB/s]	Progress:[42.11%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:25:53]	Speed:[109.77 MiB/s]	Progress:[49.22%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:26:14]	Speed:[109.81 MiB/s]	Progress:[56.27%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:26:35]	Speed:[109.84 MiB/s]	Progress:[63.33%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:26:56]	Speed:[109.87 MiB/s]	Progress:[70.39%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:27:17]	Speed:[109.92 MiB/s]	Progress:[77.44%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:27 36" level=info msg="upload status"
+[2024-05-30 05:27:38]	Speed:[110.00 MiB/s]	Progress:[84.55%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:27 44" level=info msg="initialization: add task completed" fileIndex=2
+[2024-05-30 05:27:59]	Speed:[110.07 MiB/s]	Progress:[91.67%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:28:20]	Speed:[110.01 MiB/s]	Progress:[98.68%]	File:[2/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:28 23" level=info msg="initialization: completed" fileIndex=2 numLabelsWritten=2147483648
+time="2024-05-30 05:28 23" level=info msg="initialization: starting to write file" fileIndex=3 startPosition=6442450944 targetNumLabels=2147483648
+[2024-05-30 05:28:44]	Speed:[102.86 MiB/s]	Progress:[6.57%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:29:05]	Speed:[106.10 MiB/s]	Progress:[13.50%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:29:26]	Speed:[107.68 MiB/s]	Progress:[20.65%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:29:47]	Speed:[108.38 MiB/s]	Progress:[27.73%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:30 02" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:30 02" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:30 02" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:30 03" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92418 jobId=1464 scan consume=0 scan time="2024-05-30 05:30:03"
+[2024-05-30 05:30:08]	Speed:[108.80 MiB/s]	Progress:[34.84%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:30:29]	Speed:[109.02 MiB/s]	Progress:[41.89%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:30 38" level=info msg="upload status"
+[2024-05-30 05:30:50]	Speed:[109.22 MiB/s]	Progress:[48.97%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:31:11]	Speed:[109.33 MiB/s]	Progress:[56.03%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:31:32]	Speed:[109.46 MiB/s]	Progress:[63.11%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:31:53]	Speed:[109.60 MiB/s]	Progress:[70.21%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:32:14]	Speed:[109.61 MiB/s]	Progress:[77.20%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:32:35]	Speed:[109.68 MiB/s]	Progress:[84.33%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:32 42" level=info msg="initialization: add task completed" fileIndex=3
+[2024-05-30 05:32:56]	Speed:[109.68 MiB/s]	Progress:[91.36%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:33:17]	Speed:[109.77 MiB/s]	Progress:[98.46%]	File:[3/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:33 21" level=info msg="initialization: completed" fileIndex=3 numLabelsWritten=2147483648
+time="2024-05-30 05:33 21" level=info msg="initialization: starting to write file" fileIndex=4 startPosition=8589934592 targetNumLabels=2147483648
+time="2024-05-30 05:33 40" level=info msg="upload status"
+[2024-05-30 05:33:42]	Speed:[105.14 MiB/s]	Progress:[6.64%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:34:03]	Speed:[107.62 MiB/s]	Progress:[13.77%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:34:24]	Speed:[108.57 MiB/s]	Progress:[20.85%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:34:45]	Speed:[108.95 MiB/s]	Progress:[27.88%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:35 01" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:35 01" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:35 01" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:35 02" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92419 jobId=1465 scan consume=0 scan time="2024-05-30 05:35:02"
+[2024-05-30 05:35:06]	Speed:[109.33 MiB/s]	Progress:[35.01%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:35:27]	Speed:[109.40 MiB/s]	Progress:[42.04%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:35:48]	Speed:[109.55 MiB/s]	Progress:[49.12%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:36:09]	Speed:[109.67 MiB/s]	Progress:[56.15%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:36:30]	Speed:[109.76 MiB/s]	Progress:[63.28%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:36 43" level=info msg="upload status"
+[2024-05-30 05:36:51]	Speed:[109.75 MiB/s]	Progress:[70.31%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:37:12]	Speed:[109.89 MiB/s]	Progress:[77.44%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:37:33]	Speed:[109.94 MiB/s]	Progress:[84.52%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:37 39" level=info msg="initialization: add task completed" fileIndex=4
+[2024-05-30 05:37:54]	Speed:[109.89 MiB/s]	Progress:[91.53%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:38:15]	Speed:[109.96 MiB/s]	Progress:[98.63%]	File:[4/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:38 19" level=info msg="initialization: completed" fileIndex=4 numLabelsWritten=2147483648
+time="2024-05-30 05:38 19" level=info msg="initialization: starting to write file" fileIndex=5 startPosition=10737418240 targetNumLabels=2147483648
+[2024-05-30 05:38:40]	Speed:[106.29 MiB/s]	Progress:[6.79%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:39:01]	Speed:[107.81 MiB/s]	Progress:[13.79%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:39:22]	Speed:[109.21 MiB/s]	Progress:[20.97%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:39:43]	Speed:[109.14 MiB/s]	Progress:[27.93%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:39 45" level=info msg="upload status"
+time="2024-05-30 05:40 03" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:40 03" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:40 03" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+[2024-05-30 05:40:04]	Speed:[109.49 MiB/s]	Progress:[35.06%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:40 04" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92420 jobId=1466 scan consume=0 scan time="2024-05-30 05:40:04"
+[2024-05-30 05:40:25]	Speed:[109.52 MiB/s]	Progress:[42.09%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:40:46]	Speed:[109.82 MiB/s]	Progress:[49.24%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:41:07]	Speed:[109.86 MiB/s]	Progress:[56.30%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:41:28]	Speed:[109.80 MiB/s]	Progress:[63.28%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:41:49]	Speed:[109.90 MiB/s]	Progress:[70.41%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:42:10]	Speed:[109.92 MiB/s]	Progress:[77.47%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:42:31]	Speed:[110.00 MiB/s]	Progress:[84.57%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:42 37" level=info msg="initialization: add task completed" fileIndex=5
+time="2024-05-30 05:42 47" level=info msg="upload status"
+[2024-05-30 05:42:52]	Speed:[110.04 MiB/s]	Progress:[91.60%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:43:13]	Speed:[110.01 MiB/s]	Progress:[98.68%]	File:[5/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:43 16" level=info msg="initialization: completed" fileIndex=5 numLabelsWritten=2147483648
+time="2024-05-30 05:43 16" level=info msg="initialization: starting to write file" fileIndex=6 startPosition=12884901888 targetNumLabels=2147483648
+[2024-05-30 05:43:37]	Speed:[102.48 MiB/s]	Progress:[6.54%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:43:58]	Speed:[106.67 MiB/s]	Progress:[13.65%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:44:19]	Speed:[107.56 MiB/s]	Progress:[20.63%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:44:40]	Speed:[108.38 MiB/s]	Progress:[27.76%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:45:01]	Speed:[108.72 MiB/s]	Progress:[34.81%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:45 03" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:45 03" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:45 03" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:45 04" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92421 jobId=1467 scan consume=0 scan time="2024-05-30 05:45:04"
+[2024-05-30 05:45:22]	Speed:[108.95 MiB/s]	Progress:[41.87%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:45:43]	Speed:[109.12 MiB/s]	Progress:[48.93%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:45 49" level=info msg="upload status"
+[2024-05-30 05:46:04]	Speed:[109.38 MiB/s]	Progress:[56.05%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:46:25]	Speed:[109.42 MiB/s]	Progress:[63.06%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:46:46]	Speed:[109.56 MiB/s]	Progress:[70.19%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:47:07]	Speed:[109.61 MiB/s]	Progress:[77.25%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:47:28]	Speed:[109.71 MiB/s]	Progress:[84.35%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:47 35" level=info msg="initialization: add task completed" fileIndex=6
+[2024-05-30 05:47:49]	Speed:[109.71 MiB/s]	Progress:[91.38%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:48:10]	Speed:[109.77 MiB/s]	Progress:[98.46%]	File:[6/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:48 14" level=info msg="initialization: completed" fileIndex=6 numLabelsWritten=2147483648
+time="2024-05-30 05:48 14" level=info msg="initialization: starting to write file" fileIndex=7 startPosition=15032385536 targetNumLabels=2147483648
+[2024-05-30 05:48:35]	Speed:[103.24 MiB/s]	Progress:[6.59%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:48 51" level=info msg="upload status"
+[2024-05-30 05:48:56]	Speed:[107.24 MiB/s]	Progress:[13.70%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:49:17]	Speed:[107.94 MiB/s]	Progress:[20.73%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:49:38]	Speed:[108.67 MiB/s]	Progress:[27.83%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:49:59]	Speed:[109.03 MiB/s]	Progress:[34.91%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:50 01" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:50 01" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:50 01" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:50 02" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92422 jobId=1468 scan consume=0 scan time="2024-05-30 05:50:02"
+[2024-05-30 05:50:20]	Speed:[109.33 MiB/s]	Progress:[42.02%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:50:41]	Speed:[109.28 MiB/s]	Progress:[49.00%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:51:02]	Speed:[109.43 MiB/s]	Progress:[56.08%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:51:23]	Speed:[109.63 MiB/s]	Progress:[63.21%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:51:44]	Speed:[109.68 MiB/s]	Progress:[70.26%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:51 53" level=info msg="upload status"
+[2024-05-30 05:52:05]	Speed:[109.61 MiB/s]	Progress:[77.25%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:52:26]	Speed:[109.71 MiB/s]	Progress:[84.35%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:52 32" level=info msg="initialization: add task completed" fileIndex=7
+[2024-05-30 05:52:47]	Speed:[109.71 MiB/s]	Progress:[91.38%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:53:08]	Speed:[109.82 MiB/s]	Progress:[98.51%]	File:[7/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:53 12" level=info msg="initialization: completed" fileIndex=7 numLabelsWritten=2147483648
+time="2024-05-30 05:53 12" level=info msg="initialization: starting to write file" fileIndex=8 startPosition=17179869184 targetNumLabels=2147483648
+[2024-05-30 05:53:33]	Speed:[105.90 MiB/s]	Progress:[6.76%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:53:54]	Speed:[107.62 MiB/s]	Progress:[13.77%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:54:15]	Speed:[108.70 MiB/s]	Progress:[20.80%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:54:36]	Speed:[109.05 MiB/s]	Progress:[27.93%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:54 56" level=info msg="upload status"
+[2024-05-30 05:54:57]	Speed:[109.26 MiB/s]	Progress:[34.99%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:55 03" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 05:55 03" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 05:55 03" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 05:55 04" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92423 jobId=1469 scan consume=0 scan time="2024-05-30 05:55:04"
+[2024-05-30 05:55:18]	Speed:[109.46 MiB/s]	Progress:[42.07%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:55:39]	Speed:[109.50 MiB/s]	Progress:[49.07%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:56:00]	Speed:[109.67 MiB/s]	Progress:[56.20%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:56:21]	Speed:[109.71 MiB/s]	Progress:[63.26%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:56:42]	Speed:[109.75 MiB/s]	Progress:[70.31%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:57:03]	Speed:[109.85 MiB/s]	Progress:[77.42%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:57:24]	Speed:[109.87 MiB/s]	Progress:[84.47%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:57 30" level=info msg="initialization: add task completed" fileIndex=8
+[2024-05-30 05:57:45]	Speed:[109.80 MiB/s]	Progress:[91.46%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:57 58" level=info msg="upload status"
+[2024-05-30 05:58:06]	Speed:[109.96 MiB/s]	Progress:[98.63%]	File:[8/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 05:58 10" level=info msg="initialization: completed" fileIndex=8 numLabelsWritten=2147483648
+time="2024-05-30 05:58 10" level=info msg="initialization: starting to write file" fileIndex=9 startPosition=19327352832 targetNumLabels=2147483648
+[2024-05-30 05:58:31]	Speed:[105.90 MiB/s]	Progress:[6.76%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:58:52]	Speed:[107.81 MiB/s]	Progress:[13.79%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:59:13]	Speed:[108.83 MiB/s]	Progress:[20.90%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:59:34]	Speed:[109.05 MiB/s]	Progress:[27.93%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 05:59:55]	Speed:[109.41 MiB/s]	Progress:[35.03%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:00 05" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 06:00 05" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 06:00 05" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 06:00 06" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92424 jobId=1470 scan consume=0 scan time="2024-05-30 06:00:06"
+[2024-05-30 06:00:16]	Speed:[109.52 MiB/s]	Progress:[42.09%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:00:37]	Speed:[109.71 MiB/s]	Progress:[49.19%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:00:58]	Speed:[109.67 MiB/s]	Progress:[56.20%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:01 00" level=info msg="upload status"
+[2024-05-30 06:01:19]	Speed:[109.80 MiB/s]	Progress:[63.31%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:01:40]	Speed:[109.79 MiB/s]	Progress:[70.34%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:02:01]	Speed:[109.89 MiB/s]	Progress:[77.44%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:02:22]	Speed:[109.87 MiB/s]	Progress:[84.47%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:02 28" level=info msg="initialization: add task completed" fileIndex=9
+[2024-05-30 06:02:43]	Speed:[109.95 MiB/s]	Progress:[91.58%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:03:04]	Speed:[109.99 MiB/s]	Progress:[98.66%]	File:[9/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:03 08" level=info msg="initialization: completed" fileIndex=9 numLabelsWritten=2147483648
+time="2024-05-30 06:03 08" level=info msg="initialization: starting to write file" fileIndex=10 startPosition=21474836480 targetNumLabels=2147483648
+[2024-05-30 06:03:29]	Speed:[106.29 MiB/s]	Progress:[6.79%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:03:50]	Speed:[108.00 MiB/s]	Progress:[13.82%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:04 02" level=info msg="upload status"
+[2024-05-30 06:04:11]	Speed:[108.95 MiB/s]	Progress:[20.92%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:04:32]	Speed:[109.14 MiB/s]	Progress:[27.95%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:04:53]	Speed:[109.41 MiB/s]	Progress:[35.03%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:05 04" level=info msg="PoST Status" End="2024-05-30 07:00:00" Running=true Start="2024-05-26 20:00:00"
+time="2024-05-30 06:05 04" level=info msg="PoET(PoST) Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-26 20:00:00"
+time="2024-05-30 06:05 04" level=info msg="PoET Status" End="2024-05-27 08:00:00" Running=false Start="2024-05-27 07:00:00"
+time="2024-05-30 06:05 05" level=info msg="new mining info" capacity="0 B" chain=SpaceMesh difficulty=5448114957008440576 height=92425 jobId=1471 scan consume=0 scan time="2024-05-30 06:05:05"
+[2024-05-30 06:05:14]	Speed:[109.52 MiB/s]	Progress:[42.09%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:05:35]	Speed:[109.82 MiB/s]	Progress:[49.24%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:05:56]	Speed:[109.76 MiB/s]	Progress:[56.25%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:06:17]	Speed:[109.80 MiB/s]	Progress:[63.31%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:06:38]	Speed:[109.87 MiB/s]	Progress:[70.39%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+[2024-05-30 06:06:59]	Speed:[109.89 MiB/s]	Progress:[77.44%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:07 04" level=info msg="upload status"
+[2024-05-30 06:07:20]	Speed:[109.90 MiB/s]	Progress:[84.50%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]
+time="2024-05-30 06:07 26" level=info msg="initialization: add task completed" fileIndex=10
+[2024-05-30 06:07:41]	Speed:[109.98 MiB/s]	Progress:[91.60%]	File:[10/30]	Wait:[0]	Path:[/data1/post_6ebd3580bc7f8a4d8ecfc609d2bf4e03b24fce24b0d26b46d7b3805703011ae5]

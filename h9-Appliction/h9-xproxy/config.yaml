@@ -1,0 +1,22 @@
+# Service configuration
+server:
+    host: 192.168.111.89
+    # 服务端口
+    # Service port
+    port: 9190
+# db filename
+dbFile: "proxy.db"
+chains:
+    -
+        chain: spacemesh
+        # Configure the apikey of spacemesh, configure it before generating the db file, and it will be automatically written to the db
+        # 配置spacemesh的apikey，在未生成db文件前配置好，会自动写入到db中
+        # address https://www.hpool.in/center/configuration
+        apiKey: ""
+
+# socket5 or http proxy
+proxy:
+    # E.g http://127.0.0.1:8888 socks5://127.0.0.1:8888
+    url: ""
+    username: ""
+    password: ""
