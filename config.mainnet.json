@@ -1,0 +1,46 @@
+{
+  "main": {
+    "layer-duration": "5m",
+    "layers-per-epoch": 4032
+  },
+  "post": {
+    "post-labels-per-unit": 4294967296,
+    "post-max-numunits": 1048576,
+    "post-k3": 1
+  },
+  "poet": {
+    "cycle-gap": "12h"
+  },
+  "genesis": {
+    "genesis-time": "2023-07-14T08:00:00Z",
+    "genesis-extra-data": "00000000000000000001a6bc150307b5c1998045752b3c87eccf3c013036f3cc"
+  },
+  "api": {
+    "grpc-public-listener": "0.0.0.0:9092",
+    "grpc-private-listener": "127.0.0.1:9093"
+  },
+  "p2p": {
+    "min-peers": 20,
+    "low-peers": 50,
+    "high-peers": 50,
+    "inbound-fraction": 1,
+    "outbound-fraction": 0.5,
+    "enable-routing-discovery": false,
+    "routing-discovery-advertise": false,
+    "relay": true
+  },
+  "logging": {
+    "p2p": "error"
+  },
+  "smeshing":{
+    "smeshing-verifying-opts": {
+      "smeshing-opts-verifying-min-workers": 16,
+      "smeshing-opts-verifying-workers": 32,
+      "smeshing-opts-verifying-powflags": 42
+    },
+    "smeshing-proving-opts": {
+      "smeshing-opts-proving-threads": 32
+    },
+    "smeshing-start": false
+  }
+}
