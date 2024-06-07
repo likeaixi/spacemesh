@@ -17,7 +17,9 @@
   },
   "api": {
     "grpc-public-listener": "0.0.0.0:9092",
-    "grpc-private-listener": "127.0.0.1:9093"
+    "grpc-private-listener": "127.0.0.1:9093",
+    "grpc-json-listener": "0.0.0.0:9095",
+    "grpc-post-listener": "0.0.0.0:9094"
   },
   "p2p": {
     "min-peers": 20,
