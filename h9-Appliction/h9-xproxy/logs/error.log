@@ -1,0 +1,31 @@
+2024-06-22T09:31:39.598Z	[31mERROR[0m	controller/edit.go:174	update data error: password does not match
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	vendor/github.com/GoAdminGroup/go-admin/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).EditForm
+	vendor/github.com/GoAdminGroup/go-admin/plugins/admin/controller/edit.go:174
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	vendor/github.com/GoAdminGroup/go-admin/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).EditForm
+	vendor/github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard/edit.go:143
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	vendor/github.com/GoAdminGroup/go-admin/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	vendor/github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	vendor/github.com/GoAdminGroup/go-admin/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	vendor/github.com/GoAdminGroup/go-admin/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	vendor/github.com/GoAdminGroup/go-admin/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	vendor/github.com/GoAdminGroup/go-admin/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	vendor/github.com/GoAdminGroup/go-admin/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/beego.(*Beego).AddHandler.func1
+	vendor/github.com/GoAdminGroup/go-admin/adapter/beego/beego.go:90
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP
+	vendor/github.com/astaxie/beego/router.go:813
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2879
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1930

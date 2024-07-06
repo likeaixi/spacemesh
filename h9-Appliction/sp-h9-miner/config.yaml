@@ -1,20 +1,13 @@
 # Plot路径
 # plot path
 path:
-- /data1/
-- /data2/
-- /data3/
-- /data4/
-- /data5/
-- /data6/
-- /data7/
-  #- /data8/
-  #- /data9/
-  #- /data10/
+- /md124p1/
+- /md126p1/
+
 
 # 设置miner名称，默认使用电脑名称
 # Set the miner name, the computer name is used by default
-minerName: gs-hty-001
+minerName: hty-TSJ-
 
 # 在https://www.h9.com/pool/spacemesh#config的设备管理中获取
 # Get in the device management of https://www.h9.com/pool/spacemesh#config
@@ -36,7 +29,7 @@ url:
   # In a local area network, only one proxy is required. For example, the IP of the machine where the proxy is located is 192.168.1.88 and the port is 9190
   # The following configuration is changed to
   # proxy: "http://192.168.1.88:9190"
-  proxy: "http://192.168.111.38:8888"
+  proxy: "http://192.168.2.10:9999"
 
 # 开启扫描新文件
 # Enable scanning of new files
